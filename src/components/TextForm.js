@@ -7,7 +7,7 @@ export default function TextForm(props) {
         setText(newText) // Calls function setText used in state array to change state of original text variable
     }
 
-    const handleOnChange = (event)=>{
+    const handleOnChange = (event)=>{  // allows us to type in the text area
         // console.log("On change");
         setText(event.target.value)  // Used in event handling
     }
